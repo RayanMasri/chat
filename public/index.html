@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="app">
+            <div class="login">
+                <div class="form">
+                    <h3 class="title">What's your nickname?</h3>
+                    <input
+                        class="username"
+                        type="text"
+                        maxlength="14"
+                        spellcheck="false"
+                    />
+                </div>
+            </div>
+            <div class="chat">
+                <div class="chat-panel">
+                    <div class="chat-data"></div>
+                </div>
+                <div class="chat-box">
+                    <input class="chat-input" type="text" spellcheck="false" />
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
